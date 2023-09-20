@@ -17,30 +17,12 @@ public class PotionsScript : MonoBehaviour
         Protection
     }
 
-    
 
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void Start()
     {
-      /*  Debug.Log("Collided");
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            switch (potion)
-            {
-                case Potions.Speed:
-                    
-                    effectScript.SpeedPotion();
-                    break;
-                case Potions.lowGravity:
-
-                    break;
-                case Potions.Protection:
-
-                    break;
-            }
-        }
-
-        Destroy(gameObject); */
+        effectScript = GameObject.FindGameObjectWithTag("PotionEffeck").GetComponent<PotionsEffectScript>();
     }
 
     private void OnTriggerEnter(Collider other)
