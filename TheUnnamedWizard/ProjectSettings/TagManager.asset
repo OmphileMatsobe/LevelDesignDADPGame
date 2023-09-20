@@ -9,6 +9,9 @@ TagManager:
   - Platform
   - PotionEffeck
   - PathToDog
+  - Castle
+  - enemyBug
+  - BulletSpawn
   layers:
   - Default
   - TransparentFX

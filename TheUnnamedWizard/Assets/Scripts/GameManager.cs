@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] GameObject playerProjectile, spawn;
+    [SerializeField] GameObject playerProjectile, cannonProjectile, spawn;
     [SerializeField] Transform playerTransform;
     [SerializeField] float shotPower;
     Vector3 shotMove = new Vector3(0, 0, 1);
