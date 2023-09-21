@@ -1,12 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject playerProjectile, cannonProjectile, spawn;
     [SerializeField] Transform playerTransform;
     [SerializeField] float shotPower;
+    [SerializeField] TMP_Text potionTxt;
+    [SerializeField] Image img;
+    public int potionCount = 0;
+
+
+
+
     Vector3 shotMove = new Vector3(0, 0, 1);
 
     // Start is called before the first frame update
@@ -45,5 +54,6 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        potionTxt.text = ": " + potionCount.ToString();
     }
 }

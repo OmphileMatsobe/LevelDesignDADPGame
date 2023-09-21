@@ -10739,7 +10739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &604855889
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10761,7 +10761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -129, y: 0}
+  m_AnchoredPosition: {x: -129, y: -27}
   m_SizeDelta: {x: 169.0727, y: 47.2184}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &604855890
@@ -22949,7 +22949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1200172811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22968,7 +22968,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 166.49661, y: 0}
+  m_AnchoredPosition: {x: 166.49661, y: -27.000015}
   m_SizeDelta: {x: 154.9932, y: 40.1548}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1200172812
@@ -22991,7 +22991,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ': 0'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27712,7 +27712,7 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -28366,7 +28366,7 @@ GameObject:
   - component: {fileID: 1650624471}
   m_Layer: 0
   m_Name: Game
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28405,6 +28405,9 @@ MonoBehaviour:
   spawn: {fileID: 1444180836}
   playerTransform: {fileID: 1310678280}
   shotPower: 50
+  potionTxt: {fileID: 1200172812}
+  img: {fileID: 0}
+  potionCount: 0
 --- !u!43 &1655956853
 Mesh:
   m_ObjectHideFlags: 0
@@ -34842,7 +34845,7 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

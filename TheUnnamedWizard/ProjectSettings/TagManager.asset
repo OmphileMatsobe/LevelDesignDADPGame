@@ -15,6 +15,7 @@ TagManager:
   - PlayerAttackProjectile
   - Cannon
   - MovingPlatform
+  - GameManager
   layers:
   - Default
   - TransparentFX
