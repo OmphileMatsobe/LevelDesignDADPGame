@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6641742854098117087}
   m_Layer: 8
   m_Name: Particle System
-  m_TagString: Untagged
+  m_TagString: PlayerAttackProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4841,7 +4841,7 @@ GameObject:
   - component: {fileID: 4198002512164515602}
   m_Layer: 8
   m_Name: Projectile (1)
-  m_TagString: Untagged
+  m_TagString: PlayerAttackProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9670,7 +9670,7 @@ GameObject:
   - component: {fileID: 2156268656204529931}
   m_Layer: 8
   m_Name: ProjectileShots
-  m_TagString: Projectile
+  m_TagString: PlayerAttackProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

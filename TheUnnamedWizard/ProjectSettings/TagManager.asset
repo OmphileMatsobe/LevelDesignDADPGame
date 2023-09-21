@@ -12,6 +12,8 @@ TagManager:
   - Castle
   - enemyBug
   - BulletSpawn
+  - PlayerAttackProjectile
+  - Cannon
   layers:
   - Default
   - TransparentFX
@@ -22,8 +24,8 @@ TagManager:
   - Collectibles
   - Projectile
   - ProjectilePlayer
-  - 
-  - 
+  - Cannon
+  - CannonProjectile
   - 
   - 
   - 

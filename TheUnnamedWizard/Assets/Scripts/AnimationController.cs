@@ -52,7 +52,7 @@ public class AnimationController : MonoBehaviour
                 if (setRun == true)
                     animator.SetInteger("playerMove", (int)playerMove.fowardRun);
                 else
-                    animator.SetInteger("playerMove", (int)playerMove.foward);
+                    animator.SetInteger("playerMove", (int)playerMove.fowardRun);
 
             else
                 animator.SetInteger("playerMove", (int)playerMove.back);

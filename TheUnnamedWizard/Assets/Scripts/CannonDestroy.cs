@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectilePlayer : MonoBehaviour
+public class CannonDestroy : MonoBehaviour
 {
-
     // Start is called before the first frame update
     void Start()
     {
@@ -13,12 +12,13 @@ public class ProjectilePlayer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(this.gameObject);
+        if (other.gameObject.tag == "PlayerAttackProjectile")
+            Destroy(this.gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }

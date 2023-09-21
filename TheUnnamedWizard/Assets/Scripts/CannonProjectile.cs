@@ -24,7 +24,7 @@ public class CannonProjectile : MonoBehaviour
         /*
          * Use Quaternion to get the direction of the bullet/shot
          */
-        cannon.GetComponent<Rigidbody>().velocity = new Vector3(0, 5, 5);
+        cannon.GetComponent<Rigidbody>().velocity = spawn.transform.forward * 70;
         enableShot = false;
     }
 

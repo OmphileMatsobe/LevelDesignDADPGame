@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114438478815032154}
   - component: {fileID: 65923475919724998}
   - component: {fileID: 3867500974238589020}
-  m_Layer: 0
+  - component: {fileID: 9117961363309868933}
+  m_Layer: 10
   m_Name: HM_cannon_bullet1
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,6 +155,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9117961363309868933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240887441953726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d56a57f5767f484eb43179e605386fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1420486808462880
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +178,7 @@ GameObject:
   - component: {fileID: 4718672092507590}
   - component: {fileID: 198675176984076890}
   - component: {fileID: 199649127611144004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Smoke_trail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5006,7 +5019,7 @@ GameObject:
   - component: {fileID: 4571428054930038}
   - component: {fileID: 198913002333648172}
   - component: {fileID: 199734427342937072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Smoke_trail2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9847,7 +9860,7 @@ GameObject:
   - component: {fileID: 926785572717620462}
   - component: {fileID: 487275434294588448}
   - component: {fileID: 7532040301135106653}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
