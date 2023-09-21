@@ -12,6 +12,13 @@ public class ProjectileCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerHealthScript>().DamagePlayer();
+        }
+        
+        
         Destroy(this.gameObject);
     }
     // Update is called once per frame

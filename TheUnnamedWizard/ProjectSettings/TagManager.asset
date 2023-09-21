@@ -14,6 +14,7 @@ TagManager:
   - BulletSpawn
   - PlayerAttackProjectile
   - Cannon
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX

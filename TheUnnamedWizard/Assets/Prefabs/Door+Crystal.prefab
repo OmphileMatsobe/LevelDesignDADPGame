@@ -209,8 +209,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2719879, y: 1.1263232, z: 1.1222534}
-  m_Center: {x: -0.05471039, y: -0.011639357, z: 0.0028381348}
+  m_Size: {x: 1.8000109, y: 1.2941957, z: 1.4168091}
+  m_Center: {x: -0.04335022, y: -0.011639357, z: 0.03933716}
 --- !u!114 &1851557449037873330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,5 +257,5 @@ Transform:
   - {fileID: 3168330442176142100}
   - {fileID: 2583200815529661164}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -43,20 +43,27 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Terrain" || collision.gameObject.tag == "Platform")
+        if (collision.gameObject.tag == "Terrain" || collision.gameObject.tag == "Platform" || collision.gameObject.tag == "MovingPlatform")
         {
             Debug.Log("Is On Ground");
             enableJump = true;
             jumpCount = 0;
+           //gameObject.transform.SetParent(collision.gameObject.transform);
         }
+
+       // if (collision.gameObject.CompareTag("MovingPlatform"))
+      //  {
+      //     transform.SetParent(collision.gameObject.transform.parent);
+      //  }
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.tag == "Terrain" || collision.gameObject.tag == "Platform")
+        if (collision.gameObject.tag == "Terrain" || collision.gameObject.tag == "Platform" || collision.gameObject.tag == "MovingPlatform")
         {
             Debug.Log("Is Off Ground");
             enableJump = false;
+            gameObject.transform.parent = null;
         }
     }
 
